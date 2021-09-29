@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of GRASS-7.8.</string>
+	<key>Identifier</key>
+	<string>com.github.randki.download.GRASS-7.8</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>GRASS-7.8</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
+				<key>url</key>
+				<string>https://doc-0c-c4-docs.googleusercontent.com/docs/securesc/sv9pq10q5l79ti3ts3ladjoqeesmblgq/550gk5u6anho78a0d6uirmt04adhnnfm/1632848625000/05609652391406667342/13671302952880004422/10X65yK-4tN4iRl5qfMS-Tz77YXAAahlw?e=download&amp;authuser=0&amp;nonce=qu86prjibbjps&amp;user=13671302952880004422&amp;hash=qiiroj1918lch4qff8gv1frt54bfe3mc</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+	</array>
+</dict>
+</plist>
